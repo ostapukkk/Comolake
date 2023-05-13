@@ -1,0 +1,240 @@
+@import "./base/reset";
+@import "./base/base";
+@import "./base/vars";
+
+.header {
+   color: #fff;
+    &__container {
+        @include flex();
+        justify-content: space-between;
+		padding: 1rem 10%;
+    }
+
+    &__logo {
+		font-size: 1.75rem;
+        
+    }
+
+    &__menu {
+      @include flex();
+		justify-content: center;
+		font-size: 1.5rem;
+		gap: 2.5rem;
+    }
+
+    &__navbar {
+      @include flex();
+		gap: 1.5rem;
+		position: relative;
+
+    &__navbar-link {
+    }
+}
+}
+
+.home {
+
+    &__container {
+      display: flex;
+      justify-content: space-between;
+      padding: 2.5rem 5%;
+    }
+
+    &__content {
+    }
+
+    &__content-title {
+      font-size: 4rem;
+      font-weight: 700;
+      color: #fff;
+      margin-top: 4rem;
+    }
+
+    &__content-subtitle {
+      font-size: 1.5rem;
+      color: #7C7675;
+    }
+
+    &__content-buttons {
+      @include flex();
+      margin-top: 4.5rem;
+      gap: 1.25rem;
+    }
+
+    &__content-button {
+      color: #fff;
+      background-color: #18AEEA;
+      border-color: #18AEEA;
+    }
+
+    &__content-play {
+      border: 2px solid #5C5252;
+      border-radius: 50%;
+      padding: 1.3rem 1.2rem 1.3rem 1.3rem;
+    }
+
+    &__content-textbutton {
+      max-width: 8rem;
+      font-size: 1rem;
+      color: #858285;
+    }
+
+    &__content-textlink {
+      margin-top: 4rem;
+      color: #fff;
+    }
+
+    &__content-links {
+      @include flex();
+      gap: 3rem;
+      margin-top: 0.5rem;
+    }
+
+    &__content-link {
+    }
+
+    &__content-cards {
+      img {
+        border-radius: 1rem;
+        margin-top: 3rem;
+      }
+    }
+
+    &__content-card {
+     
+    }
+}
+
+.about {
+
+  &__container {
+    @include flex();
+    gap: 8rem;
+  }
+
+  &__content {
+    max-width: 30rem;
+  }
+
+  &__img {
+    max-width: 35rem;
+  }
+
+  &__content-title {
+  }
+
+  &__content-text {
+    font-size: 1rem;
+    line-height: 2rem;
+    max-width: 25rem;
+  }
+
+  &__content-button {
+    margin-top: 2.5rem;
+  }
+}
+.container {
+}
+
+.reviews {
+
+  &__container {
+    @include flex();
+    gap: 8rem;
+  }
+
+  &__content {
+    max-width: 30rem;
+  }
+
+  &__content-title {
+  }
+
+  &__content-text {
+    font-size: 1rem;
+    line-height: 2rem;
+    max-width: 25rem;
+  }
+
+  &__content-button {
+    margin-top: 2.5rem;
+  }
+
+  &__img {
+    max-width: 35rem;
+  }
+}
+
+.contacts {
+
+  background-image: url("../assets/images/contacts-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  &__container {
+    @include flex();
+    justify-content: end;
+    gap: 8rem;
+  }
+
+  &__content {
+  }
+
+  &__content-title {
+    max-width: 22rem;
+  }
+
+  &__content-text {
+    max-width: 10rem;
+    font-size: 1rem;
+    line-height: 2rem;
+  }
+
+  &__form {
+  }
+
+  .button {
+    background-color: #18AEEA;
+    border-color: #18AEEA;
+  }
+
+  &__form-input {
+    display: block;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    border-radius: 5rem;
+    width: 17rem;
+  }
+}
+.container {
+}
+.title {
+}
+.button {
+}
+
+
+.footer {
+  background-color: #f5f5f5;
+
+  &__container {
+    @include flex();
+    justify-content: space-between;
+  }
+
+  &__logo {
+  }
+
+  &__link {
+  }
+
+  &__wrapper {
+    @include flex();
+    gap: 2rem;
+  }
+
+  &__wrapper-icon {
+  }
+}
+.container {
+}

@@ -1,0 +1,218 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box; }
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0; }
+
+ul, ol {
+  list-style: none; }
+
+img {
+  max-width: 100%;
+  display: block; }
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  border: none; }
+
+input:focus,
+button:focus {
+  outline: none; }
+
+button,
+input[type="submit"] {
+  background: none;
+  cursor: pointer; }
+
+a {
+  color: inherit;
+  text-decoration: none; }
+
+* {
+  transition: all 0.75s; }
+
+.background {
+  background-image: url(.././assets/images/home-img.jpg);
+  height: 100vh; }
+
+body {
+  font-family: 'Nunito', sans-serif;
+  font-size: 1rem;
+  font-weight: 300; }
+
+.container {
+  padding: 2.5rem 10%; }
+
+.title {
+  margin-bottom: 3rem;
+  font-size: 2.5rem;
+  font-weight: 700; }
+
+.button {
+  display: inline-block;
+  padding: 0.5rem 2rem;
+  font-size: 1rem;
+  border: 0.1rem solid #000;
+  cursor: pointer;
+  border-radius: 1.5rem;
+  font-weight: 700; }
+
+.header {
+  color: #fff; }
+  .header__container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem 10%; }
+  .header__logo {
+    font-size: 1.75rem; }
+  .header__menu {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 1.5rem;
+    gap: 2.5rem; }
+  .header__navbar {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    position: relative; }
+
+.home__container {
+  display: flex;
+  justify-content: space-between;
+  padding: 2.5rem 5%; }
+.home__content-title {
+  font-size: 4rem;
+  font-weight: 700;
+  color: #fff;
+  margin-top: 4rem; }
+.home__content-subtitle {
+  font-size: 1.5rem;
+  color: #7C7675; }
+.home__content-buttons {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 4.5rem;
+  gap: 1.25rem; }
+.home__content-button {
+  color: #fff;
+  background-color: #18AEEA;
+  border-color: #18AEEA; }
+.home__content-play {
+  border: 2px solid #5C5252;
+  border-radius: 50%;
+  padding: 1.3rem 1.2rem 1.3rem 1.3rem; }
+.home__content-textbutton {
+  max-width: 8rem;
+  font-size: 1rem;
+  color: #858285; }
+.home__content-textlink {
+  margin-top: 4rem;
+  color: #fff; }
+.home__content-links {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 3rem;
+  margin-top: 0.5rem; }
+.home__content-cards img {
+  border-radius: 1rem;
+  margin-top: 3rem; }
+
+.about__container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8rem; }
+.about__content {
+  max-width: 30rem; }
+.about__img {
+  max-width: 35rem; }
+.about__content-text {
+  font-size: 1rem;
+  line-height: 2rem;
+  max-width: 25rem; }
+.about__content-button {
+  margin-top: 2.5rem; }
+
+.reviews__container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8rem; }
+.reviews__content {
+  max-width: 30rem; }
+.reviews__content-text {
+  font-size: 1rem;
+  line-height: 2rem;
+  max-width: 25rem; }
+.reviews__content-button {
+  margin-top: 2.5rem; }
+.reviews__img {
+  max-width: 35rem; }
+
+.contacts {
+  background-image: url("../assets/images/contacts-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .contacts__container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: end;
+    gap: 8rem; }
+  .contacts__content-title {
+    max-width: 22rem; }
+  .contacts__content-text {
+    max-width: 10rem;
+    font-size: 1rem;
+    line-height: 2rem; }
+  .contacts .button {
+    background-color: #18AEEA;
+    border-color: #18AEEA; }
+  .contacts__form-input {
+    display: block;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    border-radius: 5rem;
+    width: 17rem; }
+
+.footer {
+  background-color: #f5f5f5; }
+  .footer__container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+  .footer__wrapper {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem; }
+
+/*# sourceMappingURL=main.css.map */
